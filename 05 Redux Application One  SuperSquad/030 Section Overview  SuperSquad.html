@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>030 Section Overview  SuperSquad</title>
+</head>
+<body>
+<div class="asset-container">
+    <div class="asset-container__padding article-view">
+        <div class="w3c-default">
+            <p><strong>Section Overview | SuperSquad</strong></p>
+
+<p> Congratulations on completing your first Redux application! Seeing the reducer, action, and store structure for the first time without context can feel intimidating. Hopefully going through the creation of this application step by step has helped you understand how this pieces work together.</p>
+
+
+
+
+
+<p> This article quickly overviews what we just learned by building SuperSquad. However, it also serves as a chance for you to take a coding break. Grab water, tea, coffee, egg nog, or whatever you need to stay motivated and ready to code!</p>
+
+
+
+
+
+<p> Let’s review this section’s main concepts and discoveries:</p>
+
+
+
+
+
+<ul><li><p>The <strong>store</strong> allowed us to represent the list of characters and selected heroes in one overall object. Ultimately, every component that needs to has access to this store, through the react-redux <strong>connect </strong>function.</p></li><li><p>The <strong>action creators </strong>included addCharacterById and removeCharacterById. They returned <strong>actions </strong>- objects with a type, and data for the reducers to handle.</p></li><li><p>Reducers provided guidelines on how to add and remove characters to the store. It did so by returning new instances of both the characters and heroes array through different action.type cases.</p></li><li><p>MapStateToProps, the first parameter of the connect function, described what parts of the redux store to make accessible within the component’s props object.</p></li><li><p>MapDispatchToProps, the second parameter of the connect function, described what action creators to bind to the component’s props object.</p></li></ul>
+
+
+
+
+
+<p> Next, if you want to extend Supersquad, here’s a few challenges to consider:</p>
+
+
+
+
+
+<ul><li><p>Have the items in both CharacterList and HeroList display the strength, intelligence, and speed stats for each character.</p></li><li><p>Add 5 or more characters to the characters.json data file.</p></li><li><p>Add a clear all function to the HeroList. This would involve creating a new action type, action creator, and reducer.</p></li></ul>
+
+
+
+
+
+<p> Again, congratulations on completing SuperSquad. Let’s move on to building more applications and exploring the awesome Redux framework!</p>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>
